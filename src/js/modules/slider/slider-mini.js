@@ -31,7 +31,7 @@ export default class MiniSlider extends Slider {
             this.container.appendChild(this.slides[0]); //BTN
             this.decorizeSlides();
         } else if (this.slides[1].tagName == "BUTTON") {
-            his.container.appendChild(this.slides[0]); //Slide
+            this.container.appendChild(this.slides[0]); //Slide
             this.container.appendChild(this.slides[1]); //BTN
             this.decorizeSlides();
         } else {
