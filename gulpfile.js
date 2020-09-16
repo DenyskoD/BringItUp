@@ -5,7 +5,7 @@ const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
 const dist = "./docs/";
-// const dist = "/OpenServer/domains/BringItUp"; // Ссылка на вашу папку на сервере
+// const dist = "/OpenServer/domains/BringItUp"; 
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/*.html")
